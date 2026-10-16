@@ -1,0 +1,511 @@
+{
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "loading": "Chargement...",
+    "errorBoundary": {
+      "title": "Oups ! Une erreur s'est produite.",
+      "subtitle": "Une erreur inattendue s'est produite. Veuillez rafraîchir la page.",
+      "reload": "Recharger la page",
+      "home": "Aller à l'accueil"
+    },
+    "logout": {
+      "title": "Confirmation de déconnexion",
+      "message": "Êtes-vous sûr de vouloir vous déconnecter ?",
+      "cancel": "Annuler",
+      "confirm": "Se déconnecter"
+    },
+    "today": "Aujourd'hui",
+    "help": {
+      "title": "Aide et Support",
+      "subtitle": "Obtenez de l'aide pour votre compte et vos enchères",
+      "contactUs": "Contactez-nous",
+      "faq": "Foire Aux Questions",
+      "terms": "Conditions d'utilisation",
+      "privacy": "Politique de confidentialité"
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "totalRequests": "Total des demandes",
+    "overview": "Vue d'ensemble",
+    "welcomeMessage": "Bon retour ! Voici ce qui se passe aujourd'hui.",
+    "activeBids": "Offres actives",
+    "jobsWon": "Emplois gagnés",
+    "myRating": "Ma note",
+    "recentActivity": "Activité récente",
+    "quickActions": "Actions rapides",
+    "findNewJobs": "Trouver des emplois",
+    "viewMyBids": "Voir mes offres",
+    "updateProfile": "Mettre à jour le profil",
+    "viewAlerts": "Voir les alertes",
+    "activity": {
+      "bidPlaced": "Offre placée sur",
+      "jobCompleted": "Emploi terminé",
+      "verificationApproved": "Vérification du compte approuvée",
+      "bidAccepted": "Offre acceptée pour"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Tableau de bord",
+    "findJobs": "Trouver des emplois",
+    "myBids": "Mes offres",
+    "workHistory": "Historique des travaux",
+    "notifications": "Alertes",
+    "settings": "Paramètres",
+    "logout": "Déconnexion",
+    "profile": "Profil",
+    "mechanic": "MÉCANICIEN",
+    "appTitle": "Portail Mécanicien"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "description": "Gérez vos préférences et les détails de votre compte",
+    "account": "Compte",
+    "editProfile": "Modifier le profil",
+    "editProfileDesc": "Mettre à jour vos informations personnelles",
+    "verifyAccount": "Vérifier le compte",
+    "verifyAccountDesc": "Soumettre des documents pour vérification",
+    "status": {
+      "approved": "Compte Vérifié",
+      "pending": "Vérification en attente",
+      "verifiedSuccess": "✅ Compte vérifié avec succès",
+      "pendingApproval": "⏳ Approbation administrative en attente - Veuillez patienter"
+    },
+    "changePassword": "Changer le mot de passe",
+    "changePasswordDescShort": "Mettez à jour le mot de passe de votre compte en toute sécurité",
+    "changePasswordDesc": "Entrez votre mot de passe actuel pour vérifier votre identité, puis définissez un nouveau mot de passe.",
+    "currentPassword": "Mot de passe actuel",
+    "newPassword": "Nouveau mot de passe",
+    "confirmPassword": "Confirmer le nouveau mot de passe",
+    "updateSuccess": "Mot de passe mis à jour avec succès !",
+    "save": "Enregistrer les modifications",
+    "preferences": {
+      "title": "Préférences",
+      "push": "Notifications Push",
+      "email": "Notifications Email",
+      "jobSelection": "Nouveaux Emplois",
+      "competitorBids": "Alertes Offres Concurrentes",
+      "paymentUpdates": "Mises à jour de Paiement"
+    },
+    "language": "Langue",
+    "notifications": "Préférences de Notification",
+    "channels": "Canaux de Notification",
+    "alertTypes": "Types d'Alertes",
+    "more": "Plus",
+    "about": "À propos",
+    "dangerZone": "Zone dangereuse",
+    "logout": "Se déconnecter",
+    "logoutConfirm": "Êtes-vous sûr de vouloir vous déconnecter ?",
+    "saveSuccess": "Paramètres mis à jour avec succès !",
+    "languageChanged": "Langue changée en {{lng}} avec succès!",
+    "appearance": "Apparence",
+    "theme": "Mode Thème",
+    "dark": "Mode Sombre",
+    "light": "Mode Clair",
+    "availability": "Disponibilité",
+    "availableForWork": "Disponible pour de nouveaux travaux",
+    "availabilityDesc": "Désactivez cette option si vous êtes actuellement occupé ou en vacances"
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion Mécanicien",
+      "email": "Adresse Email",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "forgotPassword": "Mot de passe oublié ?",
+      "register": "S'inscrire",
+      "errorGeneric": "Échec de la connexion. Veuillez vérifier vos identifiants."
+    },
+    "register": {
+      "title": "Inscription Mécanicien",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse Email",
+      "phone": "Téléphone (Optionnel)",
+      "address": "Adresse de l'atelier",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "submit": "Créer un compte",
+      "sendOtp": "Envoyer le code OTP",
+      "otpCode": "Code de vérification",
+      "verifying": "Envoi de l'OTP...",
+      "otpSentSuccess": "OTP envoyé à votre adresse e-mail !",
+      "startLogin": "Vous avez déjà un compte ? Connectez-vous",
+      "success": "Inscription réussie ! Redirection...",
+      "errors": {
+        "passwordMatch": "Les mots de passe ne correspondent pas",
+        "generic": "Échec de l'inscription."
+      }
+    },
+    "verification": {
+      "title": "Vérification",
+      "status": "Statut",
+      "instruction": "Téléchargez les documents pour vérifier votre compte mécanicien.",
+      "businessLicense": "Licence commerciale",
+      "insuranceCert": "Certificat d'assurance",
+      "govId": "Carte d'identité",
+      "addressConfirm": "Confirmation d'adresse",
+      "addressHelper": "Entrez l'adresse de votre atelier pour confirmer.",
+      "chooseFile": "Choisir un fichier",
+      "remove": "Supprimer",
+      "submit": "Soumettre la vérification",
+      "skip": "Passer pour l'instant",
+      "success": "Documents soumis avec succès ! Redirection...",
+      "statusLabel": {
+        "pending": "En attente",
+        "approved": "Approuvé",
+        "rejected": "Rejeté",
+        "notSubmitted": "Non soumis"
+      },
+      "pendingTitle": "Documents Soumis !",
+      "pendingMessage": "Vos documents de vérification haben été soumis avec succès et sont actuellement en cours d'examen par notre équipe administrative. Vous serez informé une fois que votre compte sera entièrement vérifié.",
+      "pendingWait": "Veuillez attendre l'approbation de l'administrateur pour commencer à soumissionner sur des emplois.",
+      "returnToDashboard": "Retour au tableau de bord",
+      "preview": {
+        "noFile": "Aucun fichier",
+        "notAvailable": "Aperçu non disponible pour PDF."
+      }
+    },
+    "forgotPassword": {
+      "title": "Mot de passe oublié",
+      "desc": "Entrez votre adresse e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+      "email": "Adresse Email",
+      "submit": "Envoyer le lien de réinitialisation",
+      "backToLogin": "Retour à la connexion",
+      "success": "Vérifiez vos e-mails",
+      "successDesc": "Nous avons envoyé un lien de réinitialisation à votre adresse e-mail. Veuillez vérifier votre boîte de réception."
+    }
+  },
+  "jobs": {
+    "title": "Emplois disponibles",
+    "description": "Parcourez et faites des offres sur les demandes de réparation dans votre région.",
+    "searchPlaceholder": "Rechercher voiture, dommages...",
+    "showFilters": "Afficher les filtres",
+    "foundJobs": "Trouvé {{count}} emplois correspondant à vos critères",
+    "verificationRequired": "Vérification requise",
+    "verificationMessage": "Téléchargez des documents pour voir les emplois.",
+    "completeVerification": "Compléter la vérification",
+    "pendingApproval": "En attente de l'approbation de l'administrateur",
+    "pendingMessage": "Vos documents de vérification sont en cours d'examen. Vous pourrez voir et enchérir sur les emplois une fois votre compte approuvé.",
+    "detail": {
+      "title": "Détails de l'emploi",
+      "subtitle": "Examinez les détails du véhicule et placez votre offre.",
+      "backToJobs": "Retour aux emplois disponibles",
+      "backToHome": "Retour aux emplois",
+      "maxBudget": "Budget max",
+      "damageDesc": "Description des dommages",
+      "photos": "Photos du véhicule",
+      "placeBid": "Faire une offre",
+      "bidPlacedSuccess": "Offre placée avec succès !",
+      "youHaveBid": "Vous avez offert {{amount}} pour ce travail.",
+      "viewMyBids": "Voir mes offres",
+      "notesTitle": "Notes importantes :",
+      "note1": "• Votre offre doit inclure la main-d'œuvre et les pièces.",
+      "note2": "• Une fois accepté, le prix ne peut pas être modifié.",
+      "vehicle": "VÉHICULE",
+      "damageType": "TYPE DE DOMMAGE"
+    },
+    "status": {
+      "open": "Ouvert",
+      "assigned": "Attribué",
+      "completed": "Terminé",
+      "cancelled": "Annulé"
+    },
+    "history": {
+      "title": "Historique des emplois",
+      "searchPlaceholder": "Rechercher...",
+      "statusFilter": "Statut",
+      "allStatuses": "Tous les statuts",
+      "assigned": "Attribué",
+      "completed": "Terminé",
+      "cancelled": "Annulé",
+      "table": {
+        "id": "ID Emploi",
+        "car": "Voiture",
+        "status": "Statut",
+        "date": "Date",
+        "actions": "Actions"
+      }
+    },
+    "table": {
+      "vehicle": "Véhicule",
+      "damageType": "Type de dommage",
+      "location": "Emplacement",
+      "budget": "Budget",
+      "deadline": "Date limite",
+      "action": "Action",
+      "noJobs": "Aucun emploi trouvé correspondant à vos critères.",
+      "viewDetails": "Voir les détails"
+    },
+    "filters": {
+      "title": "Filtres",
+      "location": "Localisation",
+      "radius": "Rayon de localisation",
+      "priceRange": "Fourchette de prix (€)",
+      "min": "Min",
+      "max": "Max",
+      "deadline": "Date limite avant",
+      "apply": "Appliquer les filtres",
+      "reset": "Réinitialiser"
+    }
+  },
+  "bids": {
+    "title": "Mes offres",
+    "description": "Gérez et suivez toutes vos offres actives et passées.",
+    "refresh": "Actualiser la liste",
+    "searchPlaceholder": "Rechercher par ID d'emploi",
+    "status": {
+      "all": "Tous les statuts",
+      "active": "Actif",
+      "selected": "Sélectionné (Gagné)",
+      "rejected": "Rejeté",
+      "withdrawn": "Retiré"
+    },
+    "total": "Total",
+    "form": {
+      "amountLabel": "Montant de l'offre (€)",
+      "durationLabel": "Durée",
+      "unitLabel": "Unité",
+      "hours": "Heures",
+      "days": "Jours",
+      "notesLabel": "Notes / Proposition",
+      "notesPlaceholder": "Décrivez les pièces, la main-d'œuvre et pourquoi vous êtes le meilleur choix...",
+      "submit": "Soumettre l'offre",
+      "update": "Mettre à jour l'offre",
+      "warningTitle": "Note :",
+      "warningBudget": "Votre offre (€{{bid}}) est supérieure au budget du client (€{{max}}).",
+      "errors": {
+        "amount": "Le montant est requis",
+        "duration": "La durée est requise",
+        "notes": "Les notes doivent comporter au moins 10 caractères"
+      }
+    },
+    "errors": {
+      "updateFailed": "Échec de la mise à jour de l'offre",
+      "withdrawFailed": "Échec du retrait de l'offre"
+    },
+    "table": {
+      "jobInfo": "Infos Emploi",
+      "price": "Prix (€)",
+      "duration": "Durée",
+      "status": "Statut",
+      "lastUpdated": "Dernière mise à jour",
+      "actions": "Actions",
+      "noBids": "Aucune offre trouvée.",
+      "viewJob": "Voir l'emploi",
+      "editBid": "Modifier l'offre",
+      "requestPrefix": "Demande #"
+    },
+    "detail": {
+      "titleEdit": "Modifier l'offre",
+      "titleView": "Détails de l'offre",
+      "newBidUpdate": "Un autre mécanicien vient de faire une offre sur ce travail !",
+      "jobSummary": "RÉSUMÉ DE L'EMPLOI",
+      "biddingClosed": "Enchères fermées (Date limite passée)",
+      "jobUnavailable": "Détails de l'emploi non disponibles",
+      "currentStatus": "Statut actuel",
+      "bidAmount": "Montant de l'offre",
+      "days": "Jours",
+      "hours": "Heures",
+      "noNotes": "Aucune note fournie.",
+      "placedOn": "Placé le",
+      "lastUpdated": "Dernière mise à jour",
+      "cancelEdit": "Annuler la modification",
+      "close": "Fermer",
+      "editAction": "Modifier l'offre",
+      "deadlinePassed": "Date limite passée",
+      "updateSuccess": "Offre mise à jour avec succès !",
+      "estimatedDuration": "DURÉE ESTIMÉE",
+      "availableDates": "DATES DISPONIBLES",
+      "appointments": {
+        "title": "Dates de rendez-vous disponibles",
+        "fulfilled": "✅ Nombre minimum de dates sélectionnées",
+        "instruction": "Sélectionnez au moins {{count}} dates disponibles où vous pouvez travailler",
+        "clearAll": "Tout effacer",
+        "selectDates": "Sélectionner des dates",
+        "pickInstruction": "Choisissez au moins {{count}} dates (date + heure)",
+        "clickDateInstruction": "Cliquez sur une date pour choisir votre créneau horaire",
+        "clickToChange": "cliquez pour changer",
+        "confirmDates": "Confirmer {{count}} dates",
+        "selectMore": "Sélectionnez {{count}} dates supplémentaires",
+        "selectTime": "Sélectionner l'heure"
+      }
+    },
+    "comparison": {
+      "title": "Résumé de mon offre",
+      "noBids": "Aucune offre placée pour le moment. Soyez le premier !",
+      "yourRank": "Votre Rang",
+      "yourBid": "VOTRE OFFRE",
+      "maxPrice": "Prix Max",
+      "lowestBid": "Offre la plus basse",
+      "difference": "Différence",
+      "bestPrice": "Meilleur Prix !",
+      "rank": "Rang",
+      "mechanic": "Mécanicien",
+      "price": "Prix",
+      "duration": "DURÉE ESTIMÉE",
+      "submitted": "Soumis",
+      "you": "Vous",
+      "withinBudget": "Votre offre respecte le budget maximum.",
+      "overBudget": "Votre offre dépasse le budget maximum.",
+      "maxBudget": "Budget Admin",
+      "completionTime": "Délai de réalisation promis",
+      "priceVsBudget": "Votre prix vs Budget max"
+    }
+  },
+  "profile": {
+    "title": "Mon profil",
+    "subtitle": "Gérez les informations de votre entreprise et le statut de vérification",
+    "notFound": "Profil non trouvé",
+    "editInfo": "Modifier les infos",
+    "overallRating": "Note globale",
+    "reviews": "avis",
+    "accountStatus": "Statut du compte",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "walletBalance": "Solde du portefeuille",
+    "businessDetails": {
+      "title": "Détails de l'entreprise",
+      "license": "Numéro de licence",
+      "insurance": "Police d'assurance",
+      "notProvided": "Non fourni"
+    },
+    "availability": {
+      "title": "Disponibilité",
+      "description": "Gérez vos heures de travail et votre disponibilité pour les nouveaux emplois dans l'onglet Paramètres.",
+      "manage": "Gérer la disponibilité"
+    },
+    "editDialog": {
+      "title": "Modifier le profil",
+      "changePhoto": "Changer la photo",
+      "businessName": "Nom de l'entreprise",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "phone": "Numéro de téléphone",
+      "address": "Adresse de l'entreprise",
+      "cancel": "Annuler",
+      "save": "Enregistrer les modifications",
+      "saving": "Enregistrement..."
+    }
+  },
+  "notifications": {
+    "title": "Centre de Notifications",
+    "subtitle": "Gérez et consultez vos alertes récentes",
+    "filterLabel": "Filtrer par catégorie",
+    "filterAll": "Toutes",
+    "filterRead": "Lues",
+    "filterUnread": "Non lues",
+    "filterJobSelected": "Travaux gagnés",
+    "filterNewBid": "Nouvelles offres",
+    "filterPayment": "Paiements",
+    "filterUnread": "Non lu",
+    "filterRead": "Lu",
+    "showing": "Affichage",
+    "table": {
+      "status": "État",
+      "type": "Catégorie",
+      "message": "Message",
+      "date": "Reçu le",
+      "actions": "Actions"
+    },
+    "empty": "Aucune notification trouvée",
+    "allCaughtUp": "🎉 Tout est à jour !",
+    "noNotifications": "📭 Aucune notification",
+    "noUnread": "Aucune notification non lue",
+    "markRead": "Marquer comme lu",
+    "markAllRead": "Tout marquer comme lu",
+    "showing": "Affichage de {{count}} notification{{plural}}",
+    "type": {
+      "jobAvailable": "Nouvel Emploi",
+      "bidAccepted": "Offre Acceptée",
+      "bidRejected": "Offre Rejetée",
+      "accountVerified": "Vérifié",
+      "jobCompleted": "Terminé",
+      "newReview": "Nouvel Avis",
+      "jobWon": "Travail gagné",
+      "newBid": "Nouvelle offre",
+      "payment": "Paiement",
+      "system": "Système",
+      "jobWonSuccess": "Félicitation ! Vous avez été sélectionné pour la réparation Toyota.",
+      "paymentSuccess": "Le paiement de 200 $ a été traité.",
+      "NEW_BID": "Nouvelle offre reçue",
+      "BID_ACCEPTED": "Offre acceptée",
+      "BID_REJECTED": "Offre rejetée",
+      "ACCOUNT_VERIFIED": "Compte vérifié",
+      "newBidReceived": "Nouvelle offre reçue : {{amount}} €",
+      "newBidMessage": "Une nouvelle offre de {{amount}} € a été placée pour votre demande : {{car}}",
+      "bidAcceptedMessage": "Votre offre pour {{car}} a été acceptée !"
+    }
+  },
+  "layout": {
+    "verification": {
+      "title": "Vérification d'Identité Requise",
+      "desc": "Pour accéder aux travaux, veuillez télécharger les documents suivants. Votre adresse est fixée lors de l'inscription.",
+      "address": "Adresse Commerciale Enregistrée",
+      "businessLicense": "Licence Commerciale",
+      "insurance": "Certificat d'Assurance",
+      "govtId": "Pièce d'Identité",
+      "upload": "Télécharger Fichier",
+      "skip": "Passer pour l'instant",
+      "submit": "Soumettre Vérification",
+      "submitting": "Téléchargement...",
+      "errorGeneric": "Échec du téléchargement. Veuillez réessayer.",
+      "errorRequired": "Les 3 documents sont requis."
+    }
+  },
+  "stats": {
+    "totalEarnings": "Gains totaux",
+    "avgRating": "Note moyenne",
+    "winRate": "Taux de réussite",
+    "activeBids": "Offres actives"
+  },
+  "analytics": {
+    "earnings": {
+      "noData": "Aucune donnée disponible"
+    },
+    "metrics": {
+      "title": "Indicateurs Clés de Performance (KPI)",
+      "name": "Nom de la métrique",
+      "value": "Valeur actuelle",
+      "avgCompletion": "Temps moyen de réalisation",
+      "avgCompletionDesc": "Temps moyen pour terminer un travail après acceptation du devis.",
+      "bidAcceptance": "Taux d'acceptation des offres",
+      "bidAcceptanceDesc": "Pourcentage de vos offres acceptées par les propriétaires.",
+      "cancellation": "Taux d'annulation",
+      "cancellationDesc": "Pourcentage de travaux annulés après avoir été gagnés.",
+      "repeatCustomers": "Clients fidèles",
+      "repeatCustomersDesc": "Nombre de propriétaires ayant choisi votre service plus d'une fois."
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Présentez vos travaux passés pour instaurer la confiance avec les clients",
+    "addWorkPhotos": "Téléverser des photos de réalisations",
+    "uploadHint": "Des photos détaillées avant/après aident les clients à vous choisir",
+    "remaining": "Restant : {{count}}",
+    "uploadButton": "Télécharger une nouvelle photo",
+    "uploading": "Téléchargement...",
+    "limitReached": "Limite atteinte (max 2)",
+    "allowedTypes": "Autorisé : JPG/PNG/WEBP • Max 5 Mo",
+    "noPhotos": "Aucune photo de portfolio pour le moment",
+    "noPhotosDesc": "Téléchargez votre première photo de travail pour commencer à construire votre profil professionnel.",
+    "deleteConfirm": "Supprimer la photo ?",
+    "deleteMessage": "Cela supprimera définitivement la photo de votre portfolio.",
+    "deleteSuccess": "Photo supprimée avec succès",
+    "uploadSuccess": "Photo téléchargée avec succès",
+    "errorLimit": "Vous ne pouvez télécharger que 2 photos au maximum.",
+    "errorFile": "Veuillez sélectionner un fichier image valide (max 5 Mo)."
+  },
+  "workHistory": {
+    "title": "Historique des travaux et commandes",
+    "subtitle": "Suivez les travaux de réparation acceptés, les réservations des clients et les fiches d'entretien.",
+    "kpiTotalWon": "Total des travaux attribués",
+    "kpiRevenue": "Rémunération convenue totale",
+    "kpiAvgTurnaround": "Durée estimée moyenne",
+    "searchPlaceholder": "Rechercher un véhicule, un ID de demande ou des notes...",
+    "noWorks": "Aucun historique de travaux pour le moment",
+    "noWorksDesc": "Lorsque les clients acceptent vos devis, leurs ordres de réparation et rendez-vous apparaîtront ici.",
+    "browseJobs": "Parcourir les emplois disponibles"
+  }
+}

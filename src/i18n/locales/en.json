@@ -1,0 +1,511 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "errorBoundary": {
+      "title": "Something went wrong",
+      "subtitle": "An unexpected error occurred. Please try reloading the page.",
+      "reload": "Reload Page",
+      "home": "Go Home"
+    },
+    "logout": {
+      "title": "Logout Confirmation",
+      "message": "Are you sure you want to log out?",
+      "cancel": "Cancel",
+      "confirm": "Logout"
+    },
+    "today": "Today",
+    "help": {
+      "title": "Help & Support",
+      "subtitle": "Get assistance with your account and bidding",
+      "contactUs": "Contact Us",
+      "faq": "Frequently Asked Questions",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy"
+    },
+    "noDescription": "No description provided."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalRequests": "Total Requests",
+    "overview": "Dashboard Overview",
+    "welcomeMessage": "Welcome back! Here is what's happening today.",
+    "activeBids": "Active Bids",
+    "jobsWon": "Jobs Won",
+    "myRating": "My Rating",
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions",
+    "findNewJobs": "Find New Jobs",
+    "viewMyBids": "View My Bids",
+    "updateProfile": "Update Profile",
+    "viewAlerts": "View Alerts",
+    "activity": {
+      "bidPlaced": "Bid placed on",
+      "jobCompleted": "Job completed",
+      "verificationApproved": "Account verification approved",
+      "bidAccepted": "Bid accepted for"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "findJobs": "Find Jobs",
+    "myBids": "My Bids",
+    "workHistory": "Work History",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "logout": "Logout",
+    "profile": "Profile",
+    "mechanic": "MECHANIC",
+    "appTitle": "Mechanic Portal"
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Manage your preferences and account details",
+    "account": "Account",
+    "editProfile": "Edit Profile",
+    "editProfileDesc": "Update your personal information",
+    "verifyAccount": "Verify Account",
+    "verifyAccountDesc": "Submit documents for verification",
+    "status": {
+      "approved": "Account Verified",
+      "pending": "Verification Pending"
+    },
+    "changePassword": "Change Password",
+    "changePasswordDescShort": "Securely update your account password",
+    "changePasswordDesc": "Enter your current password to verify identity, then set a new password.",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "updateSuccess": "Password updated successfully!",
+    "save": "Save Changes",
+    "preferences": {
+      "title": "Preferences",
+      "push": "Push Notifications",
+      "email": "Email Notifications",
+      "jobSelection": "New Job Matches",
+      "competitorBids": "Competitor Bid Alerts",
+      "paymentUpdates": "Payment Updates"
+    },
+    "language": "Language",
+    "notifications": "Notification Preferences",
+    "channels": "Notification Channels",
+    "alertTypes": "Alert Types",
+    "more": "More",
+    "about": "About",
+    "dangerZone": "Danger Zone",
+    "logout": "Logout",
+    "logoutConfirm": "Are you sure you want to log out?",
+    "saveSuccess": "Settings updated successfully!",
+    "languageChanged": "Language changed to {{lng}} successfully!",
+    "availability": "Availability",
+    "availableForWork": "Available for New Jobs",
+    "availabilityDesc": "Turn this off if you are currently busy or on vacation",
+    "theme": "Theme Mode",
+    "dark": "Dark Mode",
+    "light": "Light Mode",
+    "appearance": "Appearance"
+  },
+  "auth": {
+    "login": {
+      "title": "Mechanic Login",
+      "email": "Email Address",
+      "password": "Password",
+      "submit": "Login",
+      "forgotPassword": "Forgot Password?",
+      "register": "Register",
+      "errorGeneric": "Login failed. Please check your credentials."
+    },
+    "register": {
+      "title": "Mechanic Registration",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number (Optional)",
+      "address": "Shop Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Create Account",
+      "sendOtp": "Send OTP Code",
+      "otpCode": "Verification Code",
+      "verifying": "Sending OTP...",
+      "otpSentSuccess": "OTP sent to your email!",
+      "startLogin": "Already have an account? Sign In",
+      "success": "Registration successful! Redirecting...",
+      "errors": {
+        "passwordMatch": "Passwords do not match",
+        "generic": "Registration failed."
+      }
+    },
+    "verification": {
+      "title": "Verification",
+      "status": "Status",
+      "instruction": "Upload documents to verify your mechanic account.",
+      "businessLicense": "Business License",
+      "insuranceCert": "Insurance Certificate",
+      "govId": "Government ID",
+      "addressConfirm": "Address Confirmation",
+      "addressHelper": "Enter your shop address to confirm.",
+      "chooseFile": "Choose File",
+      "remove": "Remove",
+      "submit": "Submit Verification",
+      "skip": "Skip for now",
+      "success": "Documents submitted successfully! Redirecting...",
+      "statusLabel": {
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "notSubmitted": "Not Submitted"
+      },
+      "pendingTitle": "Documents Submitted!",
+      "pendingMessage": "Your verification documents have been successfully submitted and are currently under review by our admin team. You will be notified once your account is fully verified.",
+      "pendingWait": "Please wait for admin approval to start bidding on jobs.",
+      "returnToDashboard": "Return to Dashboard",
+      "preview": {
+        "noFile": "No file",
+        "notAvailable": "Preview not available for PDF."
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "desc": "Enter your email address and we'll send you a link to reset your password.",
+      "email": "Email Address",
+      "submit": "Send Reset Link",
+      "backToLogin": "Back to Login",
+      "success": "Check your email",
+      "successDesc": "We've sent a password reset link to your email address. Please check your inbox (and spam folder)."
+    }
+  },
+  "jobs": {
+    "title": "Available Jobs",
+    "description": "Browse and bid on repair requests in your area.",
+    "searchPlaceholder": "Search car, damage...",
+    "showFilters": "Show Filters",
+    "foundJobs": "Found {{count}} jobs matching your criteria",
+    "verificationRequired": "Verification Required",
+    "verificationMessage": "Upload documents to view jobs.",
+    "completeVerification": "Complete Verification",
+    "detail": {
+      "title": "Job Details",
+      "subtitle": "Review vehicle details and place your bid.",
+      "backToJobs": "Back to Available Jobs",
+      "backToHome": "Back to Jobs",
+      "maxBudget": "Max Budget",
+      "damageDesc": "Damage Description",
+      "photos": "Vehicle Photos",
+      "placeBid": "Place Your Bid",
+      "bidPlacedSuccess": "Bid Placed Successfully!",
+      "youHaveBid": "You have bid {{amount}} for this job.",
+      "viewMyBids": "View My Bids",
+      "notesTitle": "Important Notes:",
+      "note1": "• Your bid should include labor and parts.",
+      "note2": "• Once accepted, the price cannot be changed.",
+      "vehicle": "VEHICLE",
+      "damageType": "DAMAGE TYPE"
+    },
+    "status": {
+      "open": "Open",
+      "assigned": "Assigned",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "history": {
+      "title": "Job History",
+      "searchPlaceholder": "Search...",
+      "statusFilter": "Status",
+      "allStatuses": "All Statuses",
+      "assigned": "Assigned",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "table": {
+        "id": "Job ID",
+        "car": "Car",
+        "status": "Status",
+        "date": "Date",
+        "actions": "Actions"
+      }
+    },
+    "table": {
+      "vehicle": "Vehicle",
+      "damageType": "Damage Type",
+      "location": "Location",
+      "budget": "Budget",
+      "deadline": "Deadline",
+      "action": "Action",
+      "noJobs": "No jobs found matching your criteria.",
+      "viewDetails": "View Details"
+    },
+    "filters": {
+      "title": "Filters",
+      "location": "Location",
+      "radius": "Location Radius",
+      "priceRange": "Price Range (€)",
+      "min": "Min",
+      "max": "Max",
+      "deadline": "Deadline Before",
+      "apply": "Apply Filters",
+      "reset": "Reset"
+    }
+  },
+  "bids": {
+    "title": "My Bids",
+    "description": "Manage and track all your active and past bids.",
+    "refresh": "Refresh List",
+    "searchPlaceholder": "Search by Job ID",
+    "status": {
+      "all": "All Statuses",
+      "active": "Active",
+      "selected": "Selected (Won)",
+      "rejected": "Rejected",
+      "withdrawn": "Withdrawn"
+    },
+    "total": "Total",
+    "form": {
+      "amountLabel": "Bid Amount (€)",
+      "durationLabel": "Duration",
+      "unitLabel": "Unit",
+      "hours": "Hours",
+      "days": "Days",
+      "notesLabel": "Notes / Proposal",
+      "notesPlaceholder": "Describe parts, labor, and why you are the best fit...",
+      "submit": "Submit Bid",
+      "update": "Update Bid",
+      "warningTitle": "Note:",
+      "warningBudget": "Your bid (€{{bid}}) is higher than the client's budget (€{{max}}).",
+      "errors": {
+        "amount": "Amount is required",
+        "duration": "Duration is required",
+        "notes": "Notes must be at least 10 characters long"
+      }
+    },
+    "errors": {
+      "updateFailed": "Failed to update bid",
+      "withdrawFailed": "Failed to withdraw bid"
+    },
+    "table": {
+      "jobInfo": "Job Info",
+      "price": "Price (€)",
+      "duration": "Duration",
+      "status": "Status",
+      "lastUpdated": "Last Updated",
+      "actions": "Actions",
+      "noBids": "No bids found.",
+      "viewJob": "View Job",
+      "editBid": "Edit Bid",
+      "requestPrefix": "Request #"
+    },
+    "detail": {
+      "titleEdit": "Edit Bid",
+      "titleView": "Bid Details",
+      "newBidUpdate": "Another mechanic just placed a bid on this job!",
+      "jobSummary": "JOB SUMMARY",
+      "biddingClosed": "Bidding Closed (Deadline Passed)",
+      "jobUnavailable": "Job details not available",
+      "currentStatus": "Current Status",
+      "bidAmount": "Bid Amount",
+      "days": "Days",
+      "hours": "Hours",
+      "noNotes": "No notes provided.",
+      "placedOn": "Placed on",
+      "lastUpdated": "Last updated",
+      "cancelEdit": "Cancel Edit",
+      "close": "Close",
+      "editAction": "Edit Bid",
+      "withdrawAction": "Withdraw Bid",
+      "confirmWithdraw": "Are you sure you want to withdraw this bid? This action cannot be undone.",
+      "withdrawSuccess": "Bid withdrawn successfully!",
+      "deadlinePassed": "Deadline Passed",
+      "updateSuccess": "Bid updated successfully!",
+      "estimatedDuration": "ESTIMATED DURATION",
+      "availableDates": "AVAILABLE DATES",
+      "appointments": {
+        "title": "Available Appointment Dates",
+        "fulfilled": "✅ Minimum dates selected",
+        "instruction": "Select at least {{count}} available dates when you can work",
+        "clearAll": "Clear all",
+        "selectDates": "Select Dates",
+        "pickInstruction": "Pick at least {{count}} dates (date + time)",
+        "clickDateInstruction": "Click a date to pick your available time slot",
+        "clickToChange": "click to change",
+        "confirmDates": "Confirm {{count}} Dates",
+        "selectMore": "Select {{count}} more dates",
+        "selectTime": "Select Time"
+      }
+    },
+    "comparison": {
+      "title": "Bid Competition",
+      "noBids": "No bids placed yet. Be the first to bid!",
+      "yourRank": "Your Rank",
+      "yourBid": "Your Bid",
+      "maxPrice": "Max Price",
+      "lowestBid": "Lowest Bid",
+      "difference": "Difference",
+      "bestPrice": "Best Price!",
+      "rank": "Rank",
+      "mechanic": "Mechanic",
+      "price": "Price",
+      "duration": "Est. Duration",
+      "submitted": "Submitted",
+      "you": "You",
+      "withinBudget": "Your bid is within the admin max budget."
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your business information and verification status",
+    "notFound": "Profile not found",
+    "editInfo": "Edit Info",
+    "overallRating": "Overall Rating",
+    "reviews": "reviews",
+    "accountStatus": "Account Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "walletBalance": "Wallet Balance",
+    "businessDetails": {
+      "title": "Business Details",
+      "license": "License Number",
+      "insurance": "Insurance Policy",
+      "notProvided": "Not Provided"
+    },
+    "availability": {
+      "title": "Availability",
+      "description": "Manage your working hours and availability for new jobs in the Settings tab.",
+      "manage": "Manage Availability"
+    },
+    "editDialog": {
+      "title": "Edit Profile",
+      "changePhoto": "Change Photo",
+      "businessName": "Business Name",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone Number",
+      "address": "Business Address",
+      "cancel": "Cancel",
+      "saving": "Saving...",
+      "backToProfile": "Back to Profile"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Manage and view your recent alerts",
+    "filterLabel": "Filter by Type",
+    "filterAll": "All Notifications",
+    "filterJobSelected": "Job Selected",
+    "filterNewBid": "New Bids",
+    "filterPayment": "Payments",
+    "filterUnread": "Unread",
+    "filterRead": "Read",
+    "showing": "Showing {{count}} notification{{plural}}",
+    "table": {
+      "status": "Status",
+      "type": "Type",
+      "message": "Message",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "empty": "No notifications found",
+    "allCaughtUp": "All caught up!",
+    "noNotifications": "No Notifications",
+    "noUnread": "You have read all your notifications.",
+    "markRead": "Mark as read",
+    "markAllRead": "Mark all as read",
+    "type": {
+      "jobAvailable": "New Job",
+      "bidAccepted": "Bid Accepted",
+      "bidRejected": "Bid Rejected",
+      "accountVerified": "Verified",
+      "jobCompleted": "Completed",
+      "newReview": "New Review",
+      "jobWon": "Job Won",
+      "newBid": "New Bid",
+      "payment": "Payment",
+      "system": "System",
+      "jobWonSuccess": "Congratulations! You were selected for Toyota Repair.",
+      "paymentSuccess": "Payment of $200 has been processed.",
+      "NEW_BID": "New Bid Received",
+      "newBidMessage": "A new bid of {{amount}} € has been placed for your request: {{car}}",
+      "bidAcceptedMessage": "Your bid for {{car}} has been accepted!",
+      "ACCOUNT_VERIFIED": "Account Verified"
+    }
+  },
+  "layout": {
+    "verification": {
+      "title": "Identity Verification Required",
+      "desc": "To access jobs, please upload the following documents. Your address is fixed from registration.",
+      "address": "Registered Business Address",
+      "businessLicense": "Business License",
+      "insurance": "Insurance Certificate",
+      "govtId": "Government ID",
+      "upload": "Upload File",
+      "skip": "Skip for now",
+      "submit": "Submit Verification",
+      "submitting": "Uploading...",
+      "errorGeneric": "Failed to upload documents. Please try again.",
+      "errorRequired": "All 3 documents are required."
+    }
+  },
+  "stats": {
+    "totalEarnings": "Total Earnings",
+    "avgRating": "Avg. Rating",
+    "winRate": "Win Rate",
+    "activeBids": "Active Bids"
+  },
+  "analytics": {
+    "title": "Performance Analytics",
+    "earnings": "Total Earnings",
+    "earningsSubtitle": "Last 6 Months",
+    "kpiTitle": "Key Performance Indicators (KPIs)",
+    "noData": "No earnings data available for this period.",
+    "table": {
+      "name": "Metric Name",
+      "value": "Current Value",
+      "avgCompletion": "Avg. Completion Time",
+      "avgCompletionDesc": "Average time taken to complete a job after bid acceptance.",
+      "bidAcceptance": "Bid Acceptance Rate",
+      "bidAcceptanceDesc": "Percentage of your bids that get accepted by car owners.",
+      "cancellation": "Cancellation Rate",
+      "cancellationDesc": "Percentage of jobs cancelled after being won.",
+      "repeatCustomers": "Repeat Customers",
+      "repeatCustomersDesc": "Number of owners who chose your service more than once."
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Showcase your past work to build trust with customers",
+    "backToSettings": "Back to Settings",
+    "addWorkPhotos": "Upload Showcase Photos",
+    "uploadHint": "Detailed before/after photos help customers choose you",
+    "remaining": "Remaining: {{count}}",
+    "uploadButton": "Upload New Photo",
+    "uploading": "Uploading...",
+    "limitReached": "Limit reached (max 2)",
+    "allowedTypes": "Allowed: JPG/PNG/WEBP • Max 5MB",
+    "noPhotos": "No portfolio photos yet",
+    "noPhotosDesc": "Upload your first work photo to start building your professional profile.",
+    "deleteConfirm": "Delete photo?",
+    "deleteMessage": "This will permanently remove the photo from your portfolio.",
+    "deleteSuccess": "Photo removed successfully",
+    "uploadSuccess": "Photo uploaded successfully",
+    "errorLimit": "You can only upload up to 2 photos.",
+    "errorFile": "Please select a valid image file (max 5MB)."
+  },
+  "workHistory": {
+    "title": "Work History & Orders",
+    "subtitle": "Track accepted repair jobs, customer bookings, and completed vehicle service records.",
+    "kpiTotalWon": "Total Works Awarded",
+    "kpiRevenue": "Total Agreed Payout",
+    "kpiAvgTurnaround": "Avg. Estimated Duration",
+    "searchPlaceholder": "Search car, job ID, or notes...",
+    "noWorks": "No Work History Yet",
+    "noWorksDesc": "When customers accept your bids, their repair orders, appointment schedules, and service milestones will be recorded here.",
+    "browseJobs": "Browse Available Jobs"
+  },
+  "help": {
+    "title": "Help & Support",
+    "subtitle": "Get assistance with your account and bidding",
+    "contactUs": "Contact Us",
+    "faq": "Frequently Asked Questions",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  }
+}
